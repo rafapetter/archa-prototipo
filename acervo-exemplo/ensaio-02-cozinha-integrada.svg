@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="cozinha integrada, acervo simulado do Escritório Ensaio">
+<rect width="1200" height="750" fill="#d9d4cb"/>
+<polygon points="0,0 1200,0 960,110 240,110" fill="#e6e2da"/>
+<polygon points="0,750 1200,750 960,520 240,520" fill="#55524d"/>
+<line x1="240.0" y1="520" x2="-300.0" y2="750" stroke="#4a4843" stroke-width="2"/>
+<line x1="330.0" y1="520" x2="-75.0" y2="750" stroke="#4a4843" stroke-width="2"/>
+<line x1="420.0" y1="520" x2="150.0" y2="750" stroke="#4a4843" stroke-width="2"/>
+<line x1="510.0" y1="520" x2="375.0" y2="750" stroke="#4a4843" stroke-width="2"/>
+<line x1="600.0" y1="520" x2="600.0" y2="750" stroke="#4a4843" stroke-width="2"/>
+<line x1="690.0" y1="520" x2="825.0" y2="750" stroke="#4a4843" stroke-width="2"/>
+<line x1="780.0" y1="520" x2="1050.0" y2="750" stroke="#4a4843" stroke-width="2"/>
+<line x1="870.0" y1="520" x2="1275.0" y2="750" stroke="#4a4843" stroke-width="2"/>
+<line x1="960.0" y1="520" x2="1500.0" y2="750" stroke="#4a4843" stroke-width="2"/>
+<polygon points="0,0 240,110 240,520 0,750" fill="#e3dfd6"/>
+<polygon points="1200,0 960,110 960,520 1200,750" fill="#c9c4ba"/>
+<polygon points="40,70 200,150 200,410 40,480" fill="#cfe2f2"/>
+<polygon points="40,70 200,150 200,410 40,480" fill="none" stroke="#33281f" stroke-width="10"/>
+<line x1="140" y1="110" x2="140" y2="445" stroke="#33281f" stroke-width="8"/>
+<polygon points="240,520 500,520 360,750 0,750" fill="#ffffff" fill-opacity=".16"/>
+<rect x="270" y="350" width="660" height="170" fill="#4a3b2f"/>
+<rect x="270" y="338" width="660" height="16" fill="#3a3835"/>
+<rect x="280" y="360" width="100" height="150" fill="none" stroke="#33281f" stroke-width="3"/>
+<rect x="390" y="360" width="100" height="150" fill="none" stroke="#33281f" stroke-width="3"/>
+<rect x="500" y="360" width="100" height="150" fill="none" stroke="#33281f" stroke-width="3"/>
+<rect x="610" y="360" width="100" height="150" fill="none" stroke="#33281f" stroke-width="3"/>
+<rect x="720" y="360" width="100" height="150" fill="none" stroke="#33281f" stroke-width="3"/>
+<rect x="830" y="360" width="100" height="150" fill="none" stroke="#33281f" stroke-width="3"/>
+<rect x="300" y="220" width="600" height="8" fill="#c9a24a"/>
+<rect x="300" y="290" width="600" height="8" fill="#c9a24a"/>
+<rect x="330" y="180" width="34" height="40" rx="4" fill="#4f6a44"/>
+<rect x="440" y="180" width="34" height="40" rx="4" fill="#2a2622"/>
+<rect x="550" y="180" width="34" height="40" rx="4" fill="#3a3835"/>
+<rect x="660" y="180" width="34" height="40" rx="4" fill="#f8f8fb"/>
+<rect x="770" y="180" width="34" height="40" rx="4" fill="#5b5e63"/>
+<polygon points="360,630 840,630 870,740 330,740" fill="#4a3b2f"/>
+<polygon points="350,612 850,612 870,632 330,632" fill="#3a3835"/>
+<line x1="520" y1="0" x2="520" y2="300" stroke="#1e1b18" stroke-width="2"/>
+<polygon points="490,300 550,300 541.0,342 499.0,342" fill="#c9a24a"/>
+<line x1="680" y1="0" x2="680" y2="300" stroke="#1e1b18" stroke-width="2"/>
+<polygon points="650,300 710,300 701.0,342 659.0,342" fill="#c9a24a"/>
+<rect x="872.4" y="322.0" width="35.2" height="36.800000000000004" rx="4" fill="#2a2622"/>
+<ellipse cx="890" cy="290.0" rx="36.800000000000004" ry="46.400000000000006" fill="#4f6a44"/>
+<ellipse cx="912.4" cy="306.0" rx="24.0" ry="28.8" fill="#5a794e"/>
+<rect x="20" y="692" width="572.5999999999999" height="40" rx="8" fill="#23263f" fill-opacity=".85"/>
+<text x="36" y="718" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#f8f8fb">Acervo simulado, Escritório Ensaio: Cozinha integrada</text>
+</svg>

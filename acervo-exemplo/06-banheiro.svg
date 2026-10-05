@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="banheiro, acervo simulado">
+<rect width="1200" height="750" fill="#efeae2"/>
+<polygon points="0,0 1200,0 960,110 240,110" fill="#f3efe8"/>
+<polygon points="0,750 1200,750 960,520 240,520" fill="#a3a19b"/>
+<line x1="240.0" y1="520" x2="-300.0" y2="750" stroke="#8f8d88" stroke-width="2"/>
+<line x1="330.0" y1="520" x2="-75.0" y2="750" stroke="#8f8d88" stroke-width="2"/>
+<line x1="420.0" y1="520" x2="150.0" y2="750" stroke="#8f8d88" stroke-width="2"/>
+<line x1="510.0" y1="520" x2="375.0" y2="750" stroke="#8f8d88" stroke-width="2"/>
+<line x1="600.0" y1="520" x2="600.0" y2="750" stroke="#8f8d88" stroke-width="2"/>
+<line x1="690.0" y1="520" x2="825.0" y2="750" stroke="#8f8d88" stroke-width="2"/>
+<line x1="780.0" y1="520" x2="1050.0" y2="750" stroke="#8f8d88" stroke-width="2"/>
+<line x1="870.0" y1="520" x2="1275.0" y2="750" stroke="#8f8d88" stroke-width="2"/>
+<line x1="960.0" y1="520" x2="1500.0" y2="750" stroke="#8f8d88" stroke-width="2"/>
+<polygon points="0,0 240,110 240,520 0,750" fill="#f6f2ec"/>
+<polygon points="1200,0 960,110 960,520 1200,750" fill="#e2ddd4"/>
+<polygon points="40,70 200,150 200,410 40,480" fill="#d6e8f4"/>
+<polygon points="40,70 200,150 200,410 40,480" fill="none" stroke="#c2a070" stroke-width="10"/>
+<line x1="140" y1="110" x2="140" y2="445" stroke="#c2a070" stroke-width="8"/>
+<polygon points="240,520 500,520 360,750 0,750" fill="#ffffff" fill-opacity=".16"/>
+<rect x="240" y="320" width="720" height="200" fill="#a3a19b"/>
+<rect x="320" y="390" width="360" height="130" fill="#d6b98f"/>
+<rect x="320" y="378" width="360" height="14" fill="#8e8c86"/>
+<ellipse cx="500" cy="370" rx="60" ry="18" fill="#f8f8fb"/>
+<rect x="496" y="320" width="8" height="50" fill="#b08a3e"/>
+<circle cx="500" cy="280" r="90" fill="#d6e8f4" stroke="#b08a3e" stroke-width="8"/>
+<rect x="760" y="150" width="4" height="370" fill="#b08a3e"/>
+<rect x="764" y="150" width="180" height="370" fill="#d6e8f4" fill-opacity=".5"/>
+<rect x="706.8" y="364.0" width="26.4" height="27.599999999999998" rx="4" fill="#b3a18a"/>
+<ellipse cx="720" cy="340.0" rx="27.599999999999998" ry="34.8" fill="#5d7a4e"/>
+<ellipse cx="736.8" cy="352.0" rx="18.0" ry="21.599999999999998" fill="#6a8c59"/>
+<rect x="20" y="692" width="490.99999999999994" height="40" rx="8" fill="#23263f" fill-opacity=".85"/>
+<text x="36" y="718" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#f8f8fb">Acervo simulado, Escritório Exemplo: Banheiro</text>
+</svg>

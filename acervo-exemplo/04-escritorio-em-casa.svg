@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="escritorio em casa, acervo simulado">
+<rect width="1200" height="750" fill="#efeae2"/>
+<polygon points="0,0 1200,0 960,110 240,110" fill="#f3efe8"/>
+<polygon points="0,750 1200,750 960,520 240,520" fill="#b58a5c"/>
+<line x1="240.0" y1="520" x2="-300.0" y2="750" stroke="#9c7249" stroke-width="2"/>
+<line x1="276.0" y1="520" x2="-210.0" y2="750" stroke="#9c7249" stroke-width="2"/>
+<line x1="312.0" y1="520" x2="-120.0" y2="750" stroke="#9c7249" stroke-width="2"/>
+<line x1="348.0" y1="520" x2="-30.0" y2="750" stroke="#9c7249" stroke-width="2"/>
+<line x1="384.0" y1="520" x2="60.0" y2="750" stroke="#9c7249" stroke-width="2"/>
+<line x1="420.0" y1="520" x2="150.0" y2="750" stroke="#9c7249" stroke-width="2"/>
+<line x1="456.0" y1="520" x2="240.0" y2="750" stroke="#9c7249" stroke-width="2"/>
+<line x1="492.0" y1="520" x2="330.0" y2="750" stroke="#9c7249" stroke-width="2"/>
+<line x1="528.0" y1="520" x2="420.0" y2="750" stroke="#9c7249" stroke-width="2"/>
+<line x1="564.0" y1="520" x2="510.0" y2="750" stroke="#9c7249" stroke-width="2"/>
+<line x1="600.0" y1="520" x2="600.0" y2="750" stroke="#9c7249" stroke-width="2"/>
+<line x1="636.0" y1="520" x2="690.0" y2="750" stroke="#9c7249" stroke-width="2"/>
+<line x1="672.0" y1="520" x2="780.0" y2="750" stroke="#9c7249" stroke-width="2"/>
+<line x1="708.0" y1="520" x2="870.0" y2="750" stroke="#9c7249" stroke-width="2"/>
+<line x1="744.0" y1="520" x2="960.0" y2="750" stroke="#9c7249" stroke-width="2"/>
+<line x1="780.0" y1="520" x2="1050.0" y2="750" stroke="#9c7249" stroke-width="2"/>
+<line x1="816.0" y1="520" x2="1140.0" y2="750" stroke="#9c7249" stroke-width="2"/>
+<line x1="852.0" y1="520" x2="1230.0" y2="750" stroke="#9c7249" stroke-width="2"/>
+<line x1="888.0" y1="520" x2="1320.0" y2="750" stroke="#9c7249" stroke-width="2"/>
+<line x1="924.0" y1="520" x2="1410.0" y2="750" stroke="#9c7249" stroke-width="2"/>
+<line x1="960.0" y1="520" x2="1500.0" y2="750" stroke="#9c7249" stroke-width="2"/>
+<polygon points="0,0 240,110 240,520 0,750" fill="#f6f2ec"/>
+<polygon points="1200,0 960,110 960,520 1200,750" fill="#e2ddd4"/>
+<polygon points="40,70 200,150 200,410 40,480" fill="#d6e8f4"/>
+<polygon points="40,70 200,150 200,410 40,480" fill="none" stroke="#c2a070" stroke-width="10"/>
+<line x1="140" y1="110" x2="140" y2="445" stroke="#c2a070" stroke-width="8"/>
+<polygon points="240,520 500,520 360,750 0,750" fill="#ffffff" fill-opacity=".16"/>
+<rect x="660" y="150" width="300" height="370" fill="#d6b98f"/>
+<rect x="672" y="162" width="84" height="80" fill="#e7e2db"/>
+<rect x="768" y="162" width="84" height="80" fill="#e7e2db"/>
+<rect x="864" y="162" width="84" height="80" fill="#e7e2db"/>
+<rect x="672" y="254" width="84" height="80" fill="#e7e2db"/>
+<rect x="768" y="254" width="84" height="80" fill="#e7e2db"/>
+<rect x="864" y="254" width="84" height="80" fill="#e7e2db"/>
+<rect x="672" y="346" width="84" height="80" fill="#e7e2db"/>
+<rect x="768" y="346" width="84" height="80" fill="#e7e2db"/>
+<rect x="864" y="346" width="84" height="80" fill="#e7e2db"/>
+<rect x="672" y="438" width="84" height="80" fill="#e7e2db"/>
+<rect x="768" y="438" width="84" height="80" fill="#e7e2db"/>
+<rect x="864" y="438" width="84" height="80" fill="#e7e2db"/>
+<rect x="685" y="220" width="30" height="22" fill="#7a8a6e"/><rect x="780" y="400" width="40" height="22" fill="#8e8c86"/>
+<rect x="889.0" y="239.0" width="22.0" height="23.0" rx="4" fill="#b3a18a"/>
+<ellipse cx="900" cy="219.0" rx="23.0" ry="29.0" fill="#5d7a4e"/>
+<ellipse cx="914.0" cy="229.0" rx="15.0" ry="18.0" fill="#6a8c59"/>
+<polygon points="300,480 640,480 660,498 280,498" fill="#8e8c86"/>
+<rect x="310" y="498" width="6" height="130" fill="#b08a3e"/>
+<rect x="640" y="498" width="6" height="130" fill="#b08a3e"/>
+<rect x="410" y="410" width="100" height="70" rx="4" fill="#2a2622"/><rect x="450" y="480" width="20" height="10" fill="#2a2622"/>
+<rect x="430" y="560" width="70" height="80" rx="10" fill="#7a8a6e"/>
+<rect x="340" y="190" width="220" height="140" fill="#f8f8fb" stroke="#c2a070" stroke-width="4"/>
+<rect x="354" y="204" width="192" height="112" fill="#a3a19b"/>
+<rect x="20" y="692" width="593.0" height="40" rx="8" fill="#23263f" fill-opacity=".85"/>
+<text x="36" y="718" font-family="Helvetica, Arial, sans-serif" font-size="19" fill="#f8f8fb">Acervo simulado, Escritório Exemplo: Escritório em casa</text>
+</svg>

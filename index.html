@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light">
+  <meta name="robots" content="noindex">
+  <title>Archa, jornada do cliente (protótipo de interface)</title>
+  <meta name="description" content="Protótipo clicável das seis etapas da jornada do cliente no produto novo da Archa. Não é o produto pronto.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect width=%2732%27 height=%2732%27 rx=%276%27 fill=%27%2323263f%27/%3E%3Cpath d=%27M8 24 16 8l8 16M11.5 18h9%27 fill=%27none%27 stroke=%27%23d4ff9e%27 stroke-width=%273%27 stroke-linejoin=%27round%27/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="fontes/fontes.css">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <a class="pular" href="#main">Pular para o conteúdo</a>
+
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M6 4v16l14-8z"/></symbol>
+    <symbol id="i-enviar" viewBox="0 0 24 24"><path d="m22 2-7 20-4-9-9-4z"/><path d="M22 2 11 13"/></symbol>
+    <symbol id="i-comparar" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M12 4v16"/></symbol>
+    <symbol id="i-dois" viewBox="0 0 24 24"><rect x="3" y="5" width="8" height="14" rx="1.5"/><rect x="13" y="5" width="8" height="14" rx="1.5"/></symbol>
+    <symbol id="i-relogio" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  </svg>
+
+  <header class="topo">
+    <div class="topo__linha">
+      <a class="logo" href="#etapa-1" data-ir="1" aria-label="Archa, voltar ao início da jornada">ARCHA</a>
+      <nav class="etapas" aria-label="Etapas da jornada">
+        <button class="etapas__item" type="button" data-ir="1"><span class="etapas__numero" aria-hidden="true">1</span><span class="etapas__titulo">Programa de necessidades</span></button>
+        <button class="etapas__item" type="button" data-ir="2"><span class="etapas__numero" aria-hidden="true">2</span><span class="etapas__titulo">Escolha de estilo</span></button>
+        <button class="etapas__item" type="button" data-ir="3"><span class="etapas__numero" aria-hidden="true">3</span><span class="etapas__titulo">Pagamento</span></button>
+        <button class="etapas__item" type="button" data-ir="4"><span class="etapas__numero" aria-hidden="true">4</span><span class="etapas__titulo">Apresentações</span></button>
+        <button class="etapas__item" type="button" data-ir="5"><span class="etapas__numero" aria-hidden="true">5</span><span class="etapas__titulo">Ajuste e aprovação</span></button>
+        <button class="etapas__item" type="button" data-ir="6"><span class="etapas__numero" aria-hidden="true">6</span><span class="etapas__titulo">Contratação</span></button>
+      </nav>
+      <span class="rotulo-prototipo">protótipo de interface</span>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- Etapa 1: programa de necessidades -->
+    <section class="tela" id="tela-1" data-etapa="1" aria-labelledby="t1">
+      <div class="capa">
+        <div class="capa__miolo">
+          <span class="capa__etapa">Etapa 1 de 6. Programa de necessidades, sem custo</span>
+          <h1 id="t1">Conte o que você quer para a sua cozinha.</h1>
+          <p>Uma conversa com a agente da Archa, pela web ou pelo WhatsApp. Fotos, planta, medidas e desejos entram por aqui.</p>
+        </div>
+      </div>
+      <div class="conteudo duas">
+        <div class="chat" aria-label="Conversa com a agente da Archa">
+          <div class="chat__topo">
+            <span class="chat__agente" aria-hidden="true">AR</span>
+            <div><div class="chat__nome">Agente Archa</div><div class="legenda">Sem custo</div></div>
+            <div class="canais" role="group" aria-label="Canal da conversa">
+              <button type="button" aria-pressed="true" data-canal="web">Web</button>
+              <button type="button" aria-pressed="false" data-canal="whatsapp">WhatsApp</button>
+            </div>
+          </div>
+          <div class="chat__fio" id="fio-1">
+            <div class="balao balao--agente">Oi, sou a agente da Archa. Me conta sobre o espaço que você quer transformar. Pode mandar fotos, planta e medidas por aqui mesmo.</div>
+            <div class="balao balao--cliente">É a cozinha do nosso apartamento, em Pinheiros. Hoje ela é fechada e queremos abrir para a sala.
+              <div class="anexo"><img src="imagens/espaco.jpg" alt="Foto da cozinha atual enviada pelo cliente" width="88" height="55"><span><strong>espaco.jpg</strong>foto da cozinha</span></div>
+            </div>
+            <div class="balao balao--cliente">
+              <div class="anexo anexo--primeiro"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></svg><span><strong>planta.pdf</strong>planta do apartamento</span></div>
+              <div class="anexo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.3 15.3a2.4 2.4 0 0 1 0 3.4l-2.6 2.6a2.4 2.4 0 0 1-3.4 0L2.7 8.7a2.4 2.4 0 0 1 0-3.4l2.6-2.6a2.4 2.4 0 0 1 3.4 0z"/><path d="m14.5 12.5 2-2"/><path d="m11.5 9.5 2-2"/><path d="m8.5 6.5 2-2"/><path d="m17.5 15.5 2-2"/></svg><span><strong>medidas.txt</strong>medidas da cozinha</span></div>
+            </div>
+            <div class="balao balao--agente">Recebi a foto, a planta e as medidas. Vi a janela na parede do fundo e a porta para a sala. Vocês cozinham com que frequência? Recebem gente em casa?</div>
+            <div class="balao balao--cliente">Quase todo dia. Nos fins de semana recebemos amigos. Queremos uma bancada grande onde as pessoas possam sentar enquanto a gente cozinha, e mais luz natural.</div>
+            <div class="balao balao--agente">E em materiais, o que vocês gostam e o que não gostam?</div>
+            <div class="balao balao--cliente">Gostamos de madeira e de materiais que envelhecem bem. Nada muito brilhante nem cozinha toda branca. A janela fica onde está e o piso de taco da sala a gente mantém. Geladeira e fogão vamos reaproveitar.</div>
+            <div class="balao balao--agente">Montei o programa de necessidades com o que você contou. Confere se está certo? Se estiver, o próximo passo é escolher o estilo.</div>
+          </div>
+          <form class="chat__entrada" onsubmit="return false">
+            <button class="icone-botao" type="button" aria-label="Anexar foto, planta ou arquivo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21.44 11.05-9.19 9.19a6 6 0 0 1-8.49-8.49l8.57-8.57A4 4 0 1 1 18 8.84l-8.59 8.57a2 2 0 0 1-2.83-2.83l8.49-8.48"/></svg></button>
+            <label class="visualmente-oculto" for="mensagem-1">Mensagem</label>
+            <input id="mensagem-1" type="text" placeholder="Escreva uma mensagem" autocomplete="off">
+            <button class="icone-botao icone-botao--enviar" type="submit" aria-label="Enviar mensagem"><svg aria-hidden="true"><use href="#i-enviar"/></svg></button>
+          </form>
+        </div>
+
+        <div class="programa" aria-labelledby="programa-titulo">
+          <div class="cartao cartao--flutuante">
+            <div class="cartao__cabeca">
+              <h2 class="cartao__titulo" id="programa-titulo">Programa de necessidades</h2>
+              <span class="estado"><svg aria-hidden="true"><use href="#i-check"/></svg>montado pela agente</span>
+            </div>
+            <dl>
+              <div class="programa__linha"><dt>Ambiente</dt><dd>Cozinha integrada à sala, apartamento em Pinheiros</dd></div>
+              <div class="programa__linha"><dt>Usos</dt><dd>Cozinhar quase todo dia e receber amigos nos fins de semana</dd></div>
+              <div class="programa__linha"><dt>Desejos</dt><dd>Abrir para a sala, bancada grande para sentar, mais luz natural</dd></div>
+              <div class="programa__linha"><dt>Materiais</dt><dd>Madeira e materiais que envelhecem bem. Sem brilho, sem cozinha toda branca</dd></div>
+              <div class="programa__linha"><dt>Manter</dt><dd>Janela no lugar e piso de taco da sala</dd></div>
+              <div class="programa__linha"><dt>Reaproveitar</dt><dd>Geladeira e fogão</dd></div>
+              <div class="programa__linha"><dt>Anexos</dt><dd>Foto da cozinha, planta e medidas</dd></div>
+            </dl>
+            <div class="acoes">
+              <button class="botao botao--primario" type="button" data-ir="2">Confirmar e escolher o estilo</button>
+              <button class="botao botao--contorno" type="button">Corrigir algo</button>
+            </div>
+          </div>
+          <p class="exemplo">Conteúdo de exemplo, a partir de um briefing fictício. Nenhum valor numérico vem do modelo.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Etapa 2: escolha de estilo -->
+    <section class="tela" id="tela-2" data-etapa="2" aria-labelledby="t2" hidden>
+      <div class="capa">
+        <div class="capa__miolo">
+          <span class="capa__etapa">Etapa 2 de 6. Escolha de estilo</span>
+          <h1 id="t2">Qual projeto fala mais com você?</h1>
+          <p>Compare dois projetos por vez. A cada escolha, a Archa aproxima os escritórios do acervo que licenciaram seu estilo. Ou navegue pelos portfólios.</p>
+        </div>
+      </div>
+      <div class="conteudo conteudo--etapa2">
+        <div class="abas" role="tablist" aria-label="Modo de escolha">
+          <button type="button" role="tab" aria-selected="true" aria-controls="aba-duelos" id="tab-duelos">Trilha de duelos</button>
+          <button type="button" role="tab" aria-selected="false" aria-controls="aba-portfolios" id="tab-portfolios">Navegar portfólios</button>
+        </div>
+
+        <div class="painel-abas" id="aba-duelos" role="tabpanel" aria-labelledby="tab-duelos">
+          <div class="duelo" id="duelo">
+            <div class="duelo__cabeca">
+              <p class="legenda">Toque no projeto que você prefere</p>
+              <div class="duelo__progresso" id="duelo-progresso" aria-hidden="true"></div>
+            </div>
+            <div class="duelo__par" id="duelo-par"></div>
+          </div>
+          <div class="resultado" id="duelo-resultado" hidden>
+            <h2 class="h2-resultado">Seu estilo se aproxima do <span data-escritorio>Escritório Exemplo</span>.</h2>
+            <div class="duas duas--iguais">
+              <div class="cartao assinatura">
+                <h3 class="cartao__titulo">O que a Archa aprendeu do acervo do <span data-escritorio>Escritório Exemplo</span></h3>
+                <div class="assinatura__pecas" id="assinatura-pecas"></div>
+                <dl class="ficha" id="assinatura-ficha"></dl>
+                <p class="exemplo">Assinatura extraída do acervo pela camada determinística da Archa, sem modelo de imagem. É ela que guia cada apresentação. Texto de exemplo.</p>
+              </div>
+              <div class="cartao cartao--flutuante">
+                <div class="escritorio">
+                  <span class="escritorio__inicial" aria-hidden="true" data-inicial>E</span>
+                  <div><h3 class="cartao__titulo"><span data-escritorio>Escritório Exemplo</span></h3><p class="legenda">Escritório fictício, com acervo simulado</p></div>
+                </div>
+                <p style="margin-top:12px" id="descricao-escritorio">Carvalho claro, pedra cinza, latão e luz lateral. Projetos residenciais com cozinhas abertas para a sala.</p>
+                <ul class="afinidade" id="afinidade" aria-label="Afinidade pelas suas escolhas"></ul>
+                <div class="acoes">
+                  <button class="botao botao--primario" type="button" data-ir="3"><span>Pedir apresentação do <span data-escritorio>Escritório Exemplo</span></span></button>
+                  <button class="botao botao--contorno" type="button" data-ir="acervo">Ver o acervo</button>
+                  <button class="botao botao--contorno" type="button" id="refazer-duelos">Refazer a trilha</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="painel-abas" id="aba-portfolios" role="tabpanel" aria-labelledby="tab-portfolios" hidden>
+          <div class="portfolios" id="portfolios"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Acervo do escritório: subtela da etapa 2, para a entrevista -->
+    <section class="tela" id="tela-acervo" data-etapa="acervo" aria-labelledby="t-acervo" hidden>
+      <div class="capa">
+        <div class="capa__miolo">
+          <span class="capa__etapa">Etapa 2 de 6. Página do escritório</span>
+          <h1 id="t-acervo">O acervo do <span data-escritorio>Escritório Exemplo</span>.</h1>
+          <p>Os projetos que o escritório licenciou para a Archa gerar apresentações no estilo dele. É daqui que sai a assinatura de cada opção.</p>
+        </div>
+      </div>
+      <div class="conteudo duas duas--larga">
+        <div class="acervo" id="acervo-grade"></div>
+        <div class="programa">
+          <div class="cartao cartao--flutuante">
+            <div class="escritorio">
+              <span class="escritorio__inicial" aria-hidden="true" data-inicial>E</span>
+              <div><h2 class="cartao__titulo"><span data-escritorio>Escritório Exemplo</span></h2><p class="legenda">Autor e licenciante do acervo</p></div>
+            </div>
+            <dl class="ficha" style="margin-top:16px">
+              <dt>Assinatura</dt><dd>Carvalho claro, pedra cinza, latão e plantas; luz lateral; composição frontal com a parede do fundo como protagonista</dd>
+              <dt>Licença</dt><dd>Uso do acervo pela Archa para gerar apresentações no estilo do escritório. O autor assina cada uma e recebe parte do valor.</dd>
+              <dt>Aprovação</dt><dd>Selo instantâneo: o escritório autorizou a Archa a aprovar na hora</dd>
+              <dt>Próximos passos</dt><dd>Executivo, RRT e obra, direto com o escritório. Honorários sob consulta, por escolha dele (a alternativa é a estimativa da Archa).</dd>
+              <dt>Canal próprio</dt><dd>Esta página é a entrada do escritório. Quem chega por ela gera apresentações só com os projetos dele.</dd>
+            </dl>
+            <div class="acoes">
+              <button class="botao botao--primario" type="button" data-ir="3"><span>Pedir apresentação do <span data-escritorio>Escritório Exemplo</span></span></button>
+              <button class="botao botao--contorno" type="button" data-ir="2">Voltar à escolha de estilo</button>
+            </div>
+          </div>
+          <p class="exemplo">Acervo simulado: escritório fictício e peças desenhadas para o protótipo. Nenhuma vem de escritório real nem de modelo de imagem.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Etapa 3: pagamento por apresentação -->
+    <section class="tela" id="tela-3" data-etapa="3" aria-labelledby="t3" hidden>
+      <div class="capa">
+        <div class="capa__miolo">
+          <span class="capa__etapa">Etapa 3 de 6. Pagamento por apresentação</span>
+          <h1 id="t3">Escolha a apresentação.</h1>
+          <p>Você paga por apresentação, uma por escritório, com o estilo de cada um aplicado à sua cozinha. Parte do valor vai para o autor.</p>
+        </div>
+      </div>
+      <div class="conteudo duas">
+        <div style="display:grid;gap:20px;align-content:start">
+          <fieldset style="border:0;padding:0;margin:0;min-width:0">
+            <legend class="legenda" style="margin-bottom:10px">Três formatos, o mesmo estilo</legend>
+            <div class="apresentacoes">
+              <label class="apresentacao">
+                <input type="radio" name="apresentacao" value="Essencial" data-preco="R$ 300">
+                <span><span class="apresentacao__nome">Essencial</span><br><span class="apresentacao__descricao">Três imagens da sua cozinha no estilo do escritório.</span></span>
+                <span class="preco">R$ 300</span>
+              </label>
+              <label class="apresentacao">
+                <input type="radio" name="apresentacao" value="Completa" data-preco="R$ 1.000" checked>
+                <span><span class="apresentacao__nome">Completa</span><br><span class="apresentacao__descricao">As três imagens e um vídeo de 60 s percorrendo o espaço.</span></span>
+                <span class="preco">R$ 1.000</span>
+              </label>
+              <label class="apresentacao">
+                <input type="radio" name="apresentacao" value="Premium" data-preco="R$ 2.500">
+                <span><span class="apresentacao__nome">Premium</span><br><span class="apresentacao__descricao">Imagens e um vídeo de 3 min narrado, apresentando o conceito.</span></span>
+                <span class="preco">R$ 2.500</span>
+              </label>
+            </div>
+          </fieldset>
+          <div>
+            <p class="legenda" style="margin-bottom:10px">Quantos escritórios?</p>
+            <div class="escritorios" id="escritorios" role="group" aria-label="Escritórios da apresentação"></div>
+            <p class="legenda" style="margin-top:10px;font-weight:400">Uma apresentação por escritório, cada uma pelo valor do formato. O primeiro veio dos seus duelos.</p>
+          </div>
+        </div>
+
+        <div class="cartao cartao--flutuante resumo" id="resumo">
+          <h2 class="cartao__titulo">Resumo</h2>
+          <dl>
+            <dt>Ambiente</dt><dd>Cozinha integrada, Pinheiros</dd>
+            <dt>Formato</dt><dd><span id="resumo-apresentacao">Completa</span>, <span id="resumo-preco-unitario">R$ 1.000</span> por escritório</dd>
+            <dt>Escritórios</dt><dd id="resumo-escritorios">Exemplo e Ensaio</dd>
+          </dl>
+          <div class="resumo__total"><span>Total</span><span class="preco" id="resumo-preco">Duas apresentações de R$ 1.000</span></div>
+          <div id="pagamento-form">
+            <div class="campos">
+              <div class="segmentado" role="group" aria-label="Forma de pagamento">
+                <button type="button" aria-pressed="true">Pix</button>
+                <button type="button" aria-pressed="false">Cartão</button>
+              </div>
+              <label class="campo">Nome<input type="text" placeholder="campo de exemplo" autocomplete="off"></label>
+              <label class="campo">E-mail para receber a apresentação<input type="email" placeholder="campo de exemplo" autocomplete="off"></label>
+            </div>
+            <div class="acoes" style="margin-top:16px">
+              <button class="botao botao--primario" type="button" id="pagar"><span id="pagar-rotulo">Pagar as duas apresentações</span></button>
+            </div>
+            <p class="exemplo" style="margin-top:10px">Pagamento simulado. Nenhum dado é enviado.</p>
+          </div>
+          <div id="pagamento-feito" hidden>
+            <p style="font-weight:600;margin-bottom:12px">Pagamento confirmado. Gerando as apresentações da sua cozinha.</p>
+            <ul class="geracao" id="geracao" aria-live="polite">
+              <li><i><svg aria-hidden="true"><use href="#i-check"/></svg></i><span>Lendo o programa de necessidades</span></li>
+              <li><i><svg aria-hidden="true"><use href="#i-check"/></svg></i><span>Lendo a assinatura de cada escritório no acervo</span></li>
+              <li><i><svg aria-hidden="true"><use href="#i-check"/></svg></i><span>Aplicando cada estilo à foto da sua cozinha</span></li>
+              <li><i><svg aria-hidden="true"><use href="#i-check"/></svg></i><span>Gerando o vídeo</span></li>
+            </ul>
+            <div class="acoes" style="margin-top:16px">
+              <button class="botao botao--primario" type="button" data-ir="4" id="ver-apresentacoes" disabled>Ver as apresentações</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Etapa 4: apresentações geradas -->
+    <section class="tela tela--escura" id="tela-4" data-etapa="4" aria-labelledby="t4" hidden>
+      <div class="capa">
+        <div class="capa__miolo">
+          <span class="capa__etapa">Etapa 4 de 6. Apresentações geradas</span>
+          <h1 id="t4">Sua cozinha, no estilo do <span data-escritorio>Escritório Exemplo</span>.</h1>
+          <p>Três opções geradas sobre a foto do seu espaço, com a janela, a geladeira e o fogão no lugar. Cada uma assinada pelo autor.</p>
+        </div>
+      </div>
+      <div class="conteudo">
+        <div class="palco">
+          <div class="palco__esquerda">
+            <div class="palco__imagem">
+              <img id="palco-opcao" src="imagens/opcao-2.png" alt="Opção 2: a cozinha do cliente no estilo do escritório" width="1600" height="1000">
+              <img id="palco-antes" class="palco__antes-img" src="imagens/espaco.jpg" alt="Foto da cozinha atual" width="1600" height="1000" aria-hidden="true">
+              <img id="video-poster" src="imagens/opcao-2.png" alt="" width="1600" height="1000" hidden>
+              <video id="video" poster="imagens/opcao-2.png" preload="none" playsinline width="1600" height="1000" data-src="imagens/video.mp4" hidden></video>
+              <button class="palco__play" type="button" id="video-play" aria-label="Reproduzir o vídeo da apresentação" hidden><svg aria-hidden="true"><use href="#i-play"/></svg></button>
+              <span class="palco__rotulo" id="palco-rotulo" hidden></span>
+              <div class="palco__pilulas">
+                <button class="palco__pilula" type="button" id="ver-antes" aria-pressed="false"><svg aria-hidden="true"><use href="#i-comparar"/></svg><span id="ver-antes-rotulo">Ver o espaço atual</span></button>
+                <button class="palco__pilula" type="button" id="ver-dois" aria-pressed="false"><svg aria-hidden="true"><use href="#i-dois"/></svg><span id="ver-dois-rotulo">Dois escritórios</span></button>
+              </div>
+              <div class="palco__dois" id="palco-dois" hidden>
+                <figure>
+                  <div class="quadro"><img id="dois-exemplo" src="imagens/opcao-2.png" alt="A cozinha do cliente no estilo do Escritório Exemplo" width="1600" height="1000"></div>
+                  <figcaption><b data-escritorio>Escritório Exemplo</b>Carvalho claro, pedra cinza, latão</figcaption>
+                </figure>
+                <figure>
+                  <div class="quadro"><img src="imagens/comparar-ensaio.png" alt="A mesma cozinha no estilo do Escritório Ensaio" width="1600" height="1000"></div>
+                  <figcaption><b>Escritório Ensaio</b>Preto fosco, latão, madeira escura</figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="miniaturas" id="miniaturas"></div>
+          </div>
+
+          <div class="museu" id="museu">
+            <div id="museu-opcoes">
+              <div class="museu">
+                <span class="museu__opcao" id="museu-opcao">Opção 2</span>
+                <h2 id="museu-titulo">Ripado e prateleiras</h2>
+                <p class="museu__autor">Autor: <b data-escritorio>Escritório Exemplo</b></p>
+                <p id="museu-partido"></p>
+                <div class="museu__bloco">
+                  <span class="legenda">Materiais desta opção, do catálogo da Archa</span>
+                  <ul class="materiais" id="materiais"></ul>
+                  <span class="legenda">Medidas e quantidades vêm do banco, nunca do modelo.</span>
+                </div>
+                <div class="museu__bloco referencias-bloco">
+                  <span class="legenda">Referências do acervo usadas nesta apresentação</span>
+                  <div class="referencias" id="referencias"></div>
+                </div>
+              </div>
+            </div>
+            <div id="museu-dois" hidden>
+              <div class="museu">
+                <span class="museu__opcao">Mesmo espaço, mesmo programa</span>
+                <h2>Dois escritórios. O que muda é a identidade.</h2>
+                <p class="papel">A Archa aprende a assinatura de cada acervo e desenha a sua cozinha com ela, assinada pelo autor. A janela, a geladeira e o fogão ficam onde estão.</p>
+                <dl class="ficha">
+                  <dt><span data-escritorio>Escritório Exemplo</span></dt><dd>Carvalho claro, pedra cinza, latão e plantas, com luz lateral</dd>
+                  <dt>Escritório Ensaio</dt><dd>Preto fosco, latão, madeira escura e ripado escuro</dd>
+                </dl>
+                <p>No caminho tradicional, isso são semanas de trabalho de dois ou três escritórios. Aqui, três opções por escritório, em minutos, a partir de R$ 300.</p>
+              </div>
+            </div>
+            <div class="acoes" style="margin-top:8px">
+              <button class="botao botao--primario" type="button" data-ir="5" id="escolher-opcao">Escolher a opção 2 e pedir um ajuste</button>
+              <button class="botao botao--contorno botao--pequeno" type="button" data-ir="acervo">Ver o acervo</button>
+            </div>
+            <p class="exemplo" id="video-nota">Imagens simuladas. Quando imagens/video.mp4 não existe, o play simula o percurso sobre a imagem.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Etapa 5: ajuste e aprovação do autor -->
+    <section class="tela" id="tela-5" data-etapa="5" aria-labelledby="t5" hidden>
+      <div class="capa">
+        <div class="capa__miolo">
+          <span class="capa__etapa">Etapa 5 de 6. Ajuste e aprovação do autor</span>
+          <h1 id="t5">Ajuste por conversa. O autor aprova.</h1>
+          <p>Peça mudanças em linguagem comum. O escritório confere a apresentação e assina com o selo dele.</p>
+        </div>
+      </div>
+      <div class="conteudo conteudo--etapa5">
+        <div class="duas duas--inversa">
+          <div class="chat" aria-label="Conversa de ajuste com a agente">
+            <div class="chat__topo">
+              <span class="chat__agente" aria-hidden="true">AR</span>
+              <div><div class="chat__nome">Agente Archa</div><div class="legenda">Ajuste da <span id="ajuste-opcao-nome">opção 2</span></div></div>
+            </div>
+            <div class="chat__fio" id="fio-5">
+              <div class="balao balao--cliente">Gostei da <span id="ajuste-opcao-nome-2">opção 2</span>. Dá para ter mais madeira no piso?</div>
+              <div class="balao balao--agente">Refiz a imagem com piso de madeira, mantendo todo o resto: enquadramento, bancada, janela e iluminação.
+                <div class="anexo"><img src="imagens/ajuste-1.png" alt="Opção ajustada com piso de madeira" width="88" height="55"><span><strong>ajuste-1.png</strong>imagem ajustada</span></div>
+              </div>
+              <div class="balao balao--agente">Enviei para o <span data-escritorio>Escritório Exemplo</span> aprovar.</div>
+            </div>
+            <form class="chat__entrada" onsubmit="return false">
+              <label class="visualmente-oculto" for="mensagem-5">Mensagem</label>
+              <input id="mensagem-5" type="text" placeholder="Peça outro ajuste" autocomplete="off">
+              <button class="icone-botao icone-botao--enviar" type="submit" aria-label="Enviar mensagem"><svg aria-hidden="true"><use href="#i-enviar"/></svg></button>
+            </form>
+          </div>
+
+          <div class="ajuste__direita">
+            <div class="comparacao">
+              <figure><div class="quadro"><img id="comparacao-antes" src="imagens/opcao-2.png" alt="Opção escolhida antes do ajuste" width="1600" height="1000"></div><figcaption id="comparacao-antes-legenda">Opção 2, Ripado e prateleiras</figcaption></figure>
+              <figure><div class="quadro"><img src="imagens/ajuste-1.png" alt="Opção escolhida com piso de madeira" width="1600" height="1000"></div><figcaption>Com o ajuste: mais madeira no piso</figcaption></figure>
+            </div>
+            <p class="exemplo" id="ajuste-aviso" hidden>O ajuste de exemplo foi desenhado sobre a opção 2. Com as saídas reais do pipeline, o ajuste parte da opção escolhida.</p>
+            <div class="aprovacao__cabeca">
+              <h2 class="titulo-secao">Aprovação do autor</h2>
+              <div class="aprovacao__controle">
+                <div class="segmentado" role="group" aria-label="Modo de aprovação definido pelo escritório (demonstração)">
+                  <button type="button" aria-pressed="true" data-selo="instantaneo">Selo instantâneo</button>
+                  <button type="button" aria-pressed="false" data-selo="prazo">Com prazo</button>
+                </div>
+                <span class="legenda">Demonstração: o modo é definido pelo escritório, não pelo cliente</span>
+              </div>
+            </div>
+            <div class="selo selo--instantaneo" id="selo">
+              <div class="selo__cabeca">
+                <span class="selo__marca" id="selo-marca"><svg aria-hidden="true"><use href="#i-check"/></svg></span>
+                <div>
+                  <h3 id="selo-titulo">Aprovado pelo <span data-escritorio>Escritório Exemplo</span></h3>
+                  <span class="legenda" id="selo-sub">Selo de aprovação instantânea</span>
+                </div>
+              </div>
+              <p id="selo-texto">O escritório autorizou a Archa a aprovar na hora apresentações geradas no estilo dele. A assinatura do autor vai junto com a imagem.</p>
+            </div>
+            <div class="acoes">
+              <button class="botao botao--primario" type="button" data-ir="6">Aprovar e falar com o escritório</button>
+              <button class="botao botao--contorno" type="button" data-ir="4">Ver as outras opções</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Etapa 6: contratação -->
+    <section class="tela" id="tela-6" data-etapa="6" aria-labelledby="t6" hidden>
+      <div class="capa">
+        <div class="capa__miolo">
+          <span class="capa__etapa">Etapa 6 de 6. Contratação</span>
+          <h1 id="t6">Agora, o projeto de verdade.</h1>
+          <p>Com o conceito aprovado, você contrata o <span data-escritorio>Escritório Exemplo</span> para o projeto executivo, a RRT e a obra. A Archa encaminha; o contrato é direto com o escritório.</p>
+        </div>
+      </div>
+      <div class="conteudo duas duas--iguais">
+        <div class="contratacao__esquerda">
+          <figure class="conceito">
+            <div class="quadro"><img src="imagens/ajuste-1.png" alt="Conceito aprovado: a cozinha com piso de madeira" width="1600" height="1000"></div>
+            <figcaption class="legenda">Conceito aprovado, assinado pelo <span data-escritorio>Escritório Exemplo</span>. Vai junto com o pedido.</figcaption>
+          </figure>
+          <div class="cartao cartao--flutuante">
+            <div class="escritorio">
+              <span class="escritorio__inicial" aria-hidden="true" data-inicial>E</span>
+              <div><h2 class="cartao__titulo"><span data-escritorio>Escritório Exemplo</span></h2><p class="legenda">Autor do conceito aprovado. Escritório fictício, para o protótipo.</p></div>
+            </div>
+            <dl class="ficha" style="margin-top:14px">
+              <dt>Honorários dos próximos passos</dt><dd>Sob consulta, por escolha do escritório. A alternativa seria a estimativa da Archa; você viu essa escolha antes de pagar.</dd>
+            </dl>
+            <div class="acoes" id="contato-acoes" style="margin-top:16px">
+              <button class="botao botao--marinho" type="button" id="falar"><span>Falar com o <span data-escritorio>Escritório Exemplo</span></span></button>
+              <button class="botao botao--contorno" type="button">Pedir proposta do projeto executivo</button>
+            </div>
+            <p class="estado" id="contato-feito" hidden style="margin-top:16px"><svg aria-hidden="true"><use href="#i-check"/></svg>Conversa aberta com o escritório, com o conceito aprovado anexado</p>
+          </div>
+        </div>
+
+        <div class="contratacao__direita">
+          <h2 class="titulo-secao" style="margin-bottom:16px">O que entra na contratação</h2>
+          <ul class="inclusos">
+            <li><i><svg aria-hidden="true"><use href="#i-check"/></svg></i><div><strong>Projeto executivo</strong><span>Detalhamento da marcenaria, elétrica, hidráulica e acabamentos a partir do conceito aprovado.</span></div></li>
+            <li><i><svg aria-hidden="true"><use href="#i-check"/></svg></i><div><strong>RRT</strong><span>Registro de Responsabilidade Técnica no CAU, em nome do escritório.</span></div></li>
+            <li><i><svg aria-hidden="true"><use href="#i-check"/></svg></i><div><strong>Acompanhamento de obra</strong><span>O escritório acompanha a execução com o conceito como referência.</span></div></li>
+            <li><i><svg aria-hidden="true"><use href="#i-check"/></svg></i><div><strong>Materiais do catálogo</strong><span>Os materiais das imagens existem no catálogo da Archa e podem ser especificados pelo escritório.</span></div></li>
+          </ul>
+          <p class="legenda" style="margin-top:16px">Etapas 1 a 5 na plataforma, com IA. Esta etapa é com o escritório, sob responsabilidade técnica e RRT.</p>
+          <div class="fim">
+            <span>Fim da jornada do cliente.</span>
+            <button class="botao botao--contorno" type="button" data-ir="1">Recomeçar do início</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <nav class="rodape-nav" aria-label="Navegação linear">
+    <div class="rodape-nav__linha">
+      <button class="botao botao--contorno" type="button" id="anterior"><svg aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>Anterior</button>
+      <span class="rodape-nav__posicao" id="posicao">Etapa 1 de 6 <span class="rodape-nav__dica">(as setas do teclado também navegam)</span></span>
+      <button class="botao botao--marinho" type="button" id="proxima">Próxima etapa<svg aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button>
+    </div>
+  </nav>
+
+  <script src="app.js"></script>
+</body>
+</html>
